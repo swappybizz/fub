@@ -31,8 +31,8 @@ export default function Home() {
       <Container>
         <Heading>Diffusion Image Generation App </Heading>
         <Text marginBottom={"10px"}>
+          <code>Hi, <br>🤗</br>This is swapnil,  I want to test this concept I am trying , Help me by using it as much as possible </code>
           <h1> Enter a short description of whatever you want to see in your Image and hit Generate</h1>
-          <code>This is swapnil, I want to test this concept I am trying , Help me by using it as much as possible </code>
           USE IT WITH CAUTION. Try again if doesnt work in the first try.
         </Text>
 
