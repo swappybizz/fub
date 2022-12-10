@@ -31,6 +31,7 @@ export default function Home() {
       <Container>
         <Heading>MY Stable Diffusion APP</Heading>
         <Text marginBottom={"10px"}>
+          <code>This is swapnil, I want to test this concept I am trying , Help me by using it as much as possible </code>
           THIS IS DIRECTLY CONNECTED TO MY LAPTOP SO USE IT WITH CAUTION
         </Text>
 
