@@ -29,7 +29,7 @@ export default function Home() {
   return (
      <ChakraProvider>
       <Container>
-        <Heading>Diffusion Image Generation App </Heading>
+        <Heading>Stable Diffusion Image Generation App </Heading>
         <Text marginBottom={"10px"}>
           <code>Hi, <br>🤗</br>This is swapnil,  I want to test this concept I am trying , Help me by using it as much as possible </code>
           <h1> Enter a short description of whatever you want to see in your Image and hit Generate</h1>
