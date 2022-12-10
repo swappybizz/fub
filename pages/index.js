@@ -54,11 +54,11 @@ export default function Home() {
           </Stack>
         ) : image ? (
           <>
-          <Image src={`data:image/png;base64,${image}`} boxShadow="lg" />
-          <Text fontSize={"10px"} >{prompts}</Text>
+          <Image alt={prompt} src={`data:image/png;base64,${image}`} boxShadow="lg" />
+          
           </>
         ) : null}
-        <Text>PS : I am saving the prompts.</Text>
+        <Text>PS : I am saving the inputs</Text>
       </Container>
     </ChakraProvider>
   )
