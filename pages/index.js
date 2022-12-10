@@ -16,6 +16,16 @@ import axios from "axios";
 import { useState } from "react";
 
 export default function Home() {
+  const [image, updateImage] = useState();
+  const [prompt, updatePrompt] = useState();
+  const [loading, updateLoading] = useState();
+
+  const generate = async (prompt) => {
+    updateLoading(true);
+    const result = await axios.get(`https://4c12-83-243-172-53.eu.ngrok.io/?prompt=${prompt}`);
+    updateImage(result.data);
+    updateLoading(false);
+  };
   return (
      <ChakraProvider>
       <Container>
