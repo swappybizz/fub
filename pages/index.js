@@ -55,6 +55,7 @@ export default function Home() {
         ) : image ? (
           <Image src={`data:image/png;base64,${image}`} boxShadow="lg" />
         ) : null}
+        <Text>PS : I am saving the prompts.</Text>
       </Container>
     </ChakraProvider>
   )
