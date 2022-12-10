@@ -53,7 +53,10 @@ export default function Home() {
             <SkeletonText />
           </Stack>
         ) : image ? (
+          <>
           <Image src={`data:image/png;base64,${image}`} boxShadow="lg" />
+          <Text fontSize={"10px"} >{prompts}</Text>
+          </>
         ) : null}
         <Text>PS : I am saving the prompts.</Text>
       </Container>
